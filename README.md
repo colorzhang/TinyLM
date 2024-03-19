@@ -13,10 +13,14 @@ Modified from https://github.com/karpathy/nanoGPT
 
 size: 0.1-0.7B
 
+Train loop: use naive train loop in nanoGPT
+
 ## MyMistral
 Modified from Mistral-7B
 
 size: 0.4-0.9B
+
+Train loop: use HuggingFace tranformers trainer
 
 # Result
 ![Poem](assets/poem-1.png)
